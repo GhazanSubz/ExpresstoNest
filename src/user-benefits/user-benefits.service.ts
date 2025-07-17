@@ -25,7 +25,7 @@ export class UserBenefitsService {
       user_id: userId,
       benefit_type_id,
     }));
-
+    //cslmskmlsm
     return this.prisma.user_benefits.createMany({ data });
   }
 }
